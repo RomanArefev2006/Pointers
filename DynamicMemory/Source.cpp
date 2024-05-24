@@ -5,7 +5,8 @@ using namespace std;
 void insert_row(string arr[], string x, int n);
 void print(string arr[], int n);
 void FillRand(string arr[], int n);
-
+int** Allocate(int rows, int cols);
+void Clear(int** array, int rows);
 
 int main() {
 	const int SIZE = 10;
